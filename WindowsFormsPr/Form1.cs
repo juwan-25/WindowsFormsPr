@@ -16,5 +16,10 @@ namespace WindowsFormsPr
         {
             InitializeComponent();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("열심히 해부자~!!");
+        }
     }
 }
